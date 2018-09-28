@@ -1,0 +1,26 @@
+{
+    "name": "sherifalaa55/lever",
+    "description": "Laravel package for activating / deactivating entities",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "sherif",
+            "email": "sherif.alaa55@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SherifAlaa55\\Lever\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SherifAlaa55\\Lever\\Lever\\Providers\\LeverServiceProvider"
+            ]
+        }
+    }
+}
